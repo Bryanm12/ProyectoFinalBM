@@ -10,12 +10,12 @@ public class Vista extends Frame {
     public Vista() {
         super("Laberinto");
         setSize(400, 400);
-        setLayout(new GridLayout(0, 1)); // Usar GridLayout con 0 filas y 1 columna inicialmente
+        setLayout(new GridLayout(0, 1));
 
-        // Llamar método para pedir al usuario las filas y columnas
+
         pedirFilasYColumnas();
         
-        // Inicializar matriz de botones
+
         botones = new Button[filas][columnas];
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {
@@ -32,11 +32,11 @@ public class Vista extends Frame {
             }
         });
 
-        setVisible(true); // Mostrar la ventana principal
+        setVisible(true);
     }
 
     private void pedirFilasYColumnas() {
-        // Crear un diálogo para ingresar filas y columnas
+
         Dialog dialogo = new Dialog(this, "Ingrese filas y columnas", true);
         dialogo.setLayout(new FlowLayout());
         dialogo.setSize(300, 150);
@@ -52,8 +52,8 @@ public class Vista extends Frame {
                 try {
                     filas = Integer.parseInt(txtFilas.getText());
                     columnas = Integer.parseInt(txtColumnas.getText());
-                    dialogo.dispose(); // Cerrar el diálogo después de obtener los valores
-                    inicializarBotones(); // Llamar método para inicializar los botones después de obtener filas y columnas
+                    dialogo.dispose(); 
+                    inicializarBotones(); 
                 } catch (NumberFormatException ex) {
                     ex.printStackTrace();
                 }
@@ -66,15 +66,15 @@ public class Vista extends Frame {
         dialogo.add(txtColumnas);
         dialogo.add(btnOk);
 
-        dialogo.setVisible(true); // Mostrar el diálogo y esperar a que el usuario ingrese valores
+        dialogo.setVisible(true); 
     }
 
     private void inicializarBotones() {
-        // Limpiar el layout actual para reorganizar los botones
+    
         removeAll();
         setLayout(new GridLayout(filas, columnas));
 
-        // Inicializar los botones después de obtener filas y columnas
+
         botones = new Button[filas][columnas];
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {
@@ -85,7 +85,7 @@ public class Vista extends Frame {
             }
         }
 
-        // Ajustar el tamaño y hacer visible la ventana principal
+
         setSize(400, 400);
         setVisible(true);
     }
