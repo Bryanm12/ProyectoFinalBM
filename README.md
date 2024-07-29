@@ -53,7 +53,16 @@ por último la clase setActionButtonListener se encarga de que al momento de cli
 -Criterio de integrante: 
 1.-Bryan Maita: Utilizar los conocimientos adquiridos en clases además de investigar en alguna páguina web, si es que se tiene alguna duda de algo. Utilizar principalmente los métodos pedidos como la programación dinámica, programación recursiva, BFS y DFS
 
+-Capturas de la integraz grafica y su funcionamiento:
+![InterfazGrafica](https://github.com/user-attachments/assets/0d276f4c-1aef-4907-ae8d-236035de558f)
 
+![MetodoRecursivo](https://github.com/user-attachments/assets/da5780f6-9c72-4550-b989-cdd0e2b0587e)
+
+![MetodoProgramacionDinamica](https://github.com/user-attachments/assets/871c1430-dfba-4f52-bd6b-388c941a54eb)
+
+![MetodoBFS](https://github.com/user-attachments/assets/d3e19744-202e-4190-b243-aae90b7c8a34)
+
+![MetodoDFS](https://github.com/user-attachments/assets/d1a3f215-5aae-4d46-a799-1c83946a425d)
 
 
 
