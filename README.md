@@ -68,5 +68,8 @@ por último la clase setActionButtonListener se encarga de que al momento de cli
 
 ##Conclusiones: Como se puede ver, la programación dinámica es el método más eficiente en un recorrido de laberinto, porque en el momento en el que pintaba un cuadro, esa información se guardaba en un cache, por lo que se evitaría realizar acciones repetidas y seguiria su camino normalmente, llegando a su destino sin problema alguno. Sin embargo hay que tener en cuenta mientras más grande sea el laberinto, más memoria va a consumir ya que tiene que guardar más datos.
 
+Consideraciones: Ninguna, creo que está bien debido a que se usaron métodos que habiamos visto en clase, por lo que no creo que sea nesecario alguno consideración, al menos por mi parte.
+
+Buen día.
 
 
