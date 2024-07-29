@@ -28,6 +28,10 @@ Habrá ocasiones donde el laberinto tendrá celdas transitables y no transitable
 
 Lenguajes utilizados: java.
 
+Codigo: Mi código está hecho mediante un model vista controlador, donde la vista es la interfaz gráfica, el modelo es la lógica del programa, y el controlador es la interacción entre el vista y el modelo para que todo funcione bien. En mi caso el MVC es simple, ya que solo se basa en la creación de la matriz. Los métodos, como programación dinámica, programación recursiva, DFS y BFS están hechas en el vista. 
+
+En el modelo está el almacenamiento de filas y columnas de la  matriz, en la vista solo está creado el boton para generar la matriz y en el controlador está la clase que se encargará de crear la matriz.
+
 -Criterio de integrante: 
 1.-Bryan Maita: Utilizar los conocimientos adquiridos en clases además de investigar en alguna páguina web, si es que se tiene alguna duda de algo. Utilizar principalmente los métodos pedidos como la programación dinámica, programación recursiva, BFS y DFS
 
@@ -35,5 +39,7 @@ Lenguajes utilizados: java.
 
 
 
-##Conclusiones: Como se puede ver, la programación dinámica es el método más eficiente en un recorrido de laberinto, porque en el momento en el que pintaba un cuadro, esa información se guardaba en un cache, por lo que se evitaría realizar acciones repetidas y seguiria su camino normalmente, llegando a su destino sin problema alguno. La programación recursiva no paraba hasta llenar toda la cuadricula, excepto los cuadro marcados de negro y cuadros blancos, los cuales no se podían acceder debido a que los cuadro negros bloqueaban su acceso. Aunque quiza sea un error de mi código. El método BFS
+##Conclusiones: Como se puede ver, la programación dinámica es el método más eficiente en un recorrido de laberinto, porque en el momento en el que pintaba un cuadro, esa información se guardaba en un cache, por lo que se evitaría realizar acciones repetidas y seguiria su camino normalmente, llegando a su destino sin problema alguno. Sin embargo hay que tener en cuenta mientras más grande sea el laberinto, más memoria va a consumir ya que tiene que guardar más datos.
+
+
 
