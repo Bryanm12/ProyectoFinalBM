@@ -13,9 +13,14 @@ Aplicar métodos distintos como la programación dinámica, programación recurs
 Habrá ocasiones donde el laberinto tendrá celdas transitables y no transitables.
 
 ##Propuesta solución:
--Marco Teórico: 
+
+-Marco Teórico:
+
 1.-Programación recursiva: Esta se ecarga de llamarse así misma para poder solventar problemas que pueden ser complejos, tenemos el caso base y el caso recursivo.
+
 2.-Programación dinámica: Esta nos ayuda a dividir el problema, solucionarlo y almacenarlo en un cache. Esto se hace para que no hayan cálculos repetidos y el código sea eficiente.
+
 3.-BFS(Breadth-first search): Explora un nodo de un arbol o grafo, haciendolo de nivel en nivel. Comienza en una raiz, explora a los vecinos y luego pasa al siguiente nivel. En en bfs usualmente se usan las colas(FIFO)
+
 4.-DFS(Depth-First search): Este se encarga de adentrarse a lo más profundo de una rama para después seguir con otras ramas. Es decir que esté se basa en una búsqueda de profundidad. En el dfs Usualmente se usan las pilas(LIFO)
 
