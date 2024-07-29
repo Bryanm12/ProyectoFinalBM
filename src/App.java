@@ -1,9 +1,14 @@
-import View.Vista;
+import javax.swing.SwingUtilities;
+
+import Controller.ControladorLaberinto;
+import View.VistaLaberinto;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        new Vista();
-
-    }
+        SwingUtilities.invokeLater(() -> {
+        VistaLaberinto vista = new VistaLaberinto();
+        ControladorLaberinto controller = new ControladorLaberinto(vista);
+            vista.setVisible(true);
+        });
+}
 }
