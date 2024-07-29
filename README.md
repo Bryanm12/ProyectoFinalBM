@@ -1,10 +1,14 @@
 ![images (2)](https://github.com/user-attachments/assets/3336fbff-1646-46fa-920b-cd77daf396fd)
 
 ##Nombre : Bryan Maita
+
 ##Correo institucional: bmaitac@est.ups.edu.ec
+
 ##Materia : Estructura de datos
 
+
 ##Descripcioón:
+
 Aplicar métodos distintos como la programación dinámica, programación recursiva, Bfs y Dfs para recorrer un laberinto y saber cual de estos métodos es mejor para el recorrido en un laberinto.
 Habrá ocasiones donde el laberinto tendrá celdas transitables y no transitables.
 
